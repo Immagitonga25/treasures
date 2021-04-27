@@ -39,7 +39,7 @@ $(document).ready(function(){
       },
     });
 
-   /* $("form[name='login']").validate({
+    $("form[name='login']").validate({
       rules: {
         username : "required",
         password:"required",
