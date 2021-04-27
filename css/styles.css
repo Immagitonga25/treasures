@@ -13,9 +13,11 @@
 }
 #header h1{
     color:#4cb5f5;
+    font-family: 'Boogaloo', cursive;
 }
 #header h2{
     color: #488a99;
+    font-family: 'Boogaloo', cursive;
 }
 #header p{
     color:#0091d5 ;
