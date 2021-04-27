@@ -27,7 +27,7 @@ $(document).ready(function(){
           required: true,
           minlength: 5
         }
-     /* },
+      },
 
       messages: {
         fullname: "Please enter your firstname",
@@ -39,7 +39,7 @@ $(document).ready(function(){
       },
     });
 
-    $("form[name='login']").validate({
+   /* $("form[name='login']").validate({
       rules: {
         username : "required",
         password:"required",
