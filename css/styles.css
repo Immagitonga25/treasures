@@ -1,33 +1,39 @@
 /*making the carousel images in position*/
-.carousel-item{
-    height:20rem;
+.carousel-item {
+    height: 20rem;
     background: #777;
     color: white;
     position: relative;
     background-position: center;
     background-size: cover;
 }
-#header{
+
+#header {
     text-align: center;
-    background-color:#bbbc75;
+    background-color: #bbbc75;
 }
-#header h1{
-    color:#4cb5f5;
+
+#header h1 {
+    color: #4cb5f5;
     font-family: 'Boogaloo', cursive;
 }
-#header h2{
+
+#header h2 {
     color: #488a99;
     font-family: 'Boogaloo', cursive;
 }
-#header p{
-    color:#0091d5 ;
+
+#header p {
+    color: #0091d5;
     font-size: 23px;
     text-align: center;
     font-family: 'La Belle Aurore', cursive;
 }
+
 .navbar-nav .nav-item .nav-link {
     color: red;
 }
+
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
     color: pink;
