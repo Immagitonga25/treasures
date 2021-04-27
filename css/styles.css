@@ -1,0 +1,9 @@
+.carousel-item{
+    height:20rem;
+    background: #777;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
