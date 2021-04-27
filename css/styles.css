@@ -111,3 +111,19 @@ h3 {
     text-decoration: underline;
     padding-bottom: 10px;
 }
+#electronics {
+  text-align: center;
+    font-weight: bold;
+    background-color: lightgray;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+#hp {
+  padding-bottom: 150px;
+}
+#iphone {
+  padding-bottom: 20px;
+}
+#samsung {
+  padding-bottom: 65px;
+}
