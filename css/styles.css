@@ -50,3 +50,28 @@
     text-decoration: underline;
     padding-bottom: 10px;
 }
+.col-md-3 {
+    display: flex;
+    width: 25%;
+    min-width: 200px;
+    /* margin: auto; */
+}
+.col-md-3 img  {
+    width: 100%;
+}
+.tops {
+    margin: 30px 0px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+#polo {
+    padding-bottom: 82px;
+}
+#menshirt {
+    padding-bottom: 82px;
+}
+h3 {
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
