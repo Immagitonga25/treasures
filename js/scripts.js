@@ -9,7 +9,7 @@ $(document).ready(function(){
     $("h5").css("color" ,"black")
     $("#card1").show();
     $("#card2").hide();
- /* });
+  });
 
   $("h5").click(function(){
     $("h5").css("color" ,"#ED553B");
@@ -27,7 +27,7 @@ $(document).ready(function(){
           required: true,
           minlength: 5
         }
-      },
+     /* },
 
       messages: {
         fullname: "Please enter your firstname",
