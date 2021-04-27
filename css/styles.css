@@ -41,5 +41,12 @@
 }
 .content {
     margin-left: 180px;
-    padding: 10px;
+    padding: px;
+}
+.cloth {
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgray;
+    text-decoration: underline;
+    padding-bottom: 10px;
 }
