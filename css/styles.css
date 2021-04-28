@@ -95,5 +95,22 @@
   .link{
       text-align: center;
   }
-  
- 
+  *{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 0;
+    width: 1000px;
+    padding-top: 2%;
+    margin-bottom: 3%;
+}
+.img-dis{
+    width: 910px;
+    height: 350px;
+    background-image: url(../img/discounts.jpeg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid blue;
+}
