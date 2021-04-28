@@ -88,3 +88,12 @@
    color:tomato;
     
    }
+   /* Container holding the image and the text */
+.discount{
+    text-align: center;
+  }
+  .link{
+      text-align: center;
+  }
+  
+ 
