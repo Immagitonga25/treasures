@@ -105,9 +105,9 @@
     margin-bottom: 3%;
 }
 .img-dis{
-    width: 910px;
-    height: 350px;
-    background-image: url(../img/discounts.jpeg);
+    width: 1010px;
+    height: 370px;
+    background-image: url(../img/promax.jpeg);
     background-size:cover ;
     background-repeat: no-repeat;
     background-position: center;
@@ -118,12 +118,12 @@
 }
 #h-text{
     text-align: center;
-    color: #fffff0;
+    color: #000;
     padding-top: 5%;
 }
 #h1-text{
     padding-top: 1%;
-    color: #fffff0;
+    color:red;
     text-align: center;
     font-family: cursive;
 
@@ -132,11 +132,12 @@
     padding-top: 1%;
     margin-top: 1%;
     text-align: center;
-    color: #f9d4f5;
+    color: blue;
     font-size: 22px;
     display: block;
     flex-wrap: wrap;
     font-style: italic;
     font-weight: 500;
+    
 }
 
