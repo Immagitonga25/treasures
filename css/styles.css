@@ -63,7 +63,7 @@
   }
   /* make a border to hold the new arrival row/gallery*/
   .row{
-       border: 14px solid #4cb5f5;
+       border: 7px solid wheat;
       padding-top: 0%;
   }/* Give the column pic names some styling*/
   .mcolumn p{
