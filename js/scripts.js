@@ -40,7 +40,7 @@ function onLoadCartNumbers(){
     }
 }
 
-function cartNumbers() {
+function cartNumbers(products) {
     let productNumbers = localStorage.getItem('cartNumbers');
     
     productNumbers = parseInt(productNumbers);
@@ -54,6 +54,20 @@ function cartNumbers() {
 
     }
     
+    setItems(products);
 }
+
+function setItems(products);
+    console.log("Inside of setItems function");
+    console.log("My product is", product);
+    product.inCart = 1;
+
+    let cartItems = {
+        [product.tag]: product
+    }
+    
+    localStorage.setItem("productsInCart", JSON.stringify(cartItems));
+
+
 onLoadCartNumbers();
 
