@@ -114,8 +114,24 @@
     background-position: center;
     border: 3px solid blue;
 }
-#text{
+#h-text{
     text-align: center;
-    color: ivory;
-    
+    color: #fffff0;
+    padding-top: 5%;
 }
+#h1-text{
+    padding-top: 1%;
+    color: #fffff0;
+    text-align: center;
+
+}
+#p-text{
+    padding-top: 1%;
+    margin-top: 1%;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    display: block;
+    flex-wrap: wrap;
+}
+
