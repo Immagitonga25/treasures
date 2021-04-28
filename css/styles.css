@@ -61,3 +61,14 @@
      color:WHITE;
      font-family: 'La Belle Aurore', cursive;
   }
+  .row{
+      border-radius: 14%;
+      border: 50px solid #4cb5f5;
+  }
+  .column p{
+      font-size: larger;
+      color: #Ac3e31;
+      text-align: center;
+      font-style: italic;
+      background-color: antiquewhite;
+  }
