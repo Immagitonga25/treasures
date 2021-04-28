@@ -61,3 +61,12 @@
     border-bottom: 1px solid lightgrey;
 }
 
+.total {
+    width: 10%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+}
+
+
+
