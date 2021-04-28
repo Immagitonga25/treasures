@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/products.css" />
     <script src="https://use.fontawesome.com/26ad560673.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous"
     ></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/products.js"></script>
 
     <title>Treasures</title>
   </head>
@@ -33,7 +33,7 @@
       <a class="nav-link" href="account.html">Account</a>
       <div class="search-container">
         <form action="">
-          <input type="text" placeholder="Search..." name="search">
+          <input type="text" placeholder="Search..." name="search" />
           <button type="submit"><i class="fa fa-search"></i></button>
         </form>
       </div>
@@ -55,53 +55,68 @@
           <div class="row">
             <div class="col-md-3">
               <div class="productcard">
-                <img src="images/tops/summertop.jpeg" alt="Summer Top" />
-                <h3>Women striped crop top</h3>
+                <img
+                  class="item-image"
+                  src="images/tops/summertop.jpeg"
+                  alt="Summer Top"
+                />
+                <h3 class="item-title">Women striped crop top</h3>
                 <p>Size: UK 6</p>
-                <p>Ksh. 400</p>
+                <p class="item-price">Ksh. 400</p>
                 <p>Seller: Tina's Little Store</p>
-                <p><button id="cart">Add to cart</button></p>
+                <p>
+                  <button class="item-button" id="cart">Add to cart</button>
+                </p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="productcard">
                 <img
+                  class="item-image"
                   id="polo"
                   src="images/tops/poloshirt.png"
                   alt="Polo Shirt"
                 />
-                <h3>Mens navy blue polo shirt</h3>
+                <h3 class="item-title">Mens navy blue polo shirt</h3>
                 <p>Size: UK 12</p>
-                <p>Ksh. 600</p>
+                <p class="item-price">Ksh. 600</p>
                 <p>Seller: BoysToMen Apparel</p>
-                <p><button id="cart">Add to cart</button></p>
+                <p>
+                  <button class="item-button" id="cart">Add to cart</button>
+                </p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="productcard">
                 <img
+                  class="item-image"
                   src="images/tops/coldshoulder.jpeg"
                   alt="Cold shoulder top"
                 />
-                <h3>Floral cold-shoulder top</h3>
+                <h3 class="item-title">Floral cold-shoulder top</h3>
                 <p>Size: UK 12/14</p>
-                <p>Ksh. 500</p>
+                <p class="item-price">Ksh. 500</p>
                 <p>Seller: Tina's Little Store</p>
-                <p><button id="cart">Add to cart</button></p>
+                <p>
+                  <button class="item-button" id="cart">Add to cart</button>
+                </p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="productcard">
                 <img
+                  class="item-image"
                   id="menshirt"
                   src="images/tops/stripedshirt.png"
                   alt="Mens Shirt"
                 />
-                <h3>Mens striped casual shirt</h3>
+                <h3 class="item-title">Mens striped casual shirt</h3>
                 <p>Size: UK 10</p>
-                <p>Ksh. 600</p>
+                <p class="item-price">Ksh. 600</p>
                 <p>Seller: BoysToMen Apparel</p>
-                <p><button id="cart">Add to cart</button></p>
+                <p>
+                  <button class="item-button" id="cart">Add to cart</button>
+                </p>
               </div>
             </div>
           </div>
@@ -112,56 +127,68 @@
             <div class="col-md-3">
               <div class="productcard">
                 <img
+                  class="item-image"
                   id="bodycon"
                   src="images/dresses/bodycondress.jpeg"
                   alt="Bodycon"
                 />
-                <h3>Black bodycon dress</h3>
+                <h3 class="item-title">Black bodycon dress</h3>
                 <p>Size: UK 8</p>
-                <p>Ksh. 800</p>
+                <p class="item-price">Ksh. 800</p>
                 <p>Seller: Tina's Little Store</p>
-                <p><button id="cart">Add to cart</button></p>
+                <p>
+                  <button class="item-button" id="cart">Add to cart</button>
+                </p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="productcard">
                 <img
+                  class="item-image"
                   id="sumdress"
                   src="images/dresses/summerdress1.jpeg"
                   alt="long dress"
                 />
-                <h3>Emerald green long off-shoulder dress</h3>
+                <h3 class="item-title">Emerald green long off-shoulder dress</h3>
                 <p>Size: UK 12/14</p>
-                <p>Ksh. 1000</p>
+                <p class="item-price">Ksh. 1000</p>
                 <p>Seller: Tina's Little Store</p>
-                <p><button id="cart">Add to cart</button></p>
+                <p>
+                  <button class="item-button" id="cart">Add to cart</button>
+                </p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="productcard">
                 <img
+                  class="item-image"
                   id="sridress"
                   src="images/dresses/stripedv-neck.jpeg"
                   alt="striped dress"
                 />
-                <h3>Long striped v-neck dress</h3>
+                <h3 class="item-title">Long striped v-neck dress</h3>
                 <p>Size: UK 10/12</p>
-                <p>Ksh. 800</p>
+                <p class="item-price">Ksh. 800</p>
                 <p>Seller: Tina's Little Store</p>
-                <p><button id="cart">Add to cart</button></p>
+                <p>
+                  <button class="item-button" id="cart">Add to cart</button>
+                </p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="productcard">
                 <img
+                  class="item-image"
                   id="floral"
                   src="images/dresses/sundress.jpeg"
                   alt="sun dress"
                 />
-                <h3>Long floral v-neck dress</h3>
-                <p>Ksh. 1000</p>
+                <h3 class="item-title">Long floral v-neck dress</h3>
+                <p class="item-price">Ksh. 1000</p>
                 <p>Seller: Tina's Little Store</p>
-                <p><button id="cart">Add to cart</button></p>
+                <p>
+                  <button class="item-button" id="cart">Add to cart</button>
+                </p>
               </div>
             </div>
           </div>
@@ -172,48 +199,68 @@
             <div class="col-md-3">
               <div class="productcard">
                 <img
+                  class="item-image"
                   id="cordroy"
                   src="images/pants/cordroytrousers.png"
                   alt="cordroy"
                 />
-                <h3>Brown mens cordroy trouser</h3>
+                <h3 class="item-title">Brown mens cordroy trouser</h3>
                 <p>Size: UK 8</p>
-                <p>Ksh. 1000</p>
+                <p class="item-price">Ksh. 1000</p>
                 <p>Seller: BoysToMen Apparel</p>
-                <p><button id="cart">Add to cart</button></p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="productcard">
-                <img id="jeans" src="images/pants/jeans.jpeg" alt="jeans" />
-                <h3>Womens rugged jeans</h3>
-                <p>Size: UK 8/10</p>
-                <p>Ksh. 1000</p>
-                <p>Seller: Tina's Little Store</p>
-                <p><button id="cart">Add to cart</button></p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="productcard">
-                <img id="khaki" src="images/pants/menspant.jpeg" alt="khaki" />
-                <h3>Green Khaki mens trouser</h3>
-                <p>Size: UK 12</p>
-                <p>Ksh. 1000</p>
-                <p>Seller: BoysToMen Apparel</p>
-                <p><button id="cart">Add to cart</button></p>
+                <p>
+                  <button class="item-button" id="cart">Add to cart</button>
+                </p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="productcard">
                 <img
+                  class="item-image"
+                  id="jeans"
+                  src="images/pants/jeans.jpeg"
+                  alt="jeans"
+                />
+                <h3 class="item-title">Womens rugged jeans</h3>
+                <p>Size: UK 8/10</p>
+                <p class="item-price">Ksh. 1000</p>
+                <p>Seller: Tina's Little Store</p>
+                <p>
+                  <button class="item-button" id="cart">Add to cart</button>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="productcard">
+                <img
+                  class="item-image"
+                  id="khaki"
+                  src="images/pants/menspant.jpeg"
+                  alt="khaki"
+                />
+                <h3 class="item-title">Green Khaki mens trouser</h3>
+                <p>Size: UK 12</p>
+                <p class="item-price">Ksh. 1000</p>
+                <p>Seller: BoysToMen Apparel</p>
+                <p>
+                  <button class="item-button" id="cart">Add to cart</button>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="productcard">
+                <img
+                  class="item-image"
                   id="paperpants"
                   src="images/pants/paperbagpants.jpeg"
                   alt="paperbag"
                 />
-                <h3>Striped blue womens paperbag pants</h3>
-                <p>Ksh. 1000</p>
+                <h3 class="item-title">Striped blue womens paperbag pants</h3>
+                <p class="item-price">Ksh. 1000</p>
                 <p>Seller: Tina's Little Store</p>
-                <p><button id="cart">Add to cart</button></p>
+                <p>
+                  <button class="item-button" id="cart">Add to cart</button>
+                </p>
               </div>
             </div>
           </div>
@@ -226,42 +273,62 @@
         <div class="row">
           <div class="col-md-3">
             <div class="productcard">
-              <img id="heels" src="images/shoes/blackheels.jpeg" alt="heels" />
-              <h3>Black suede heels with strap</h3>
+              <img
+                class="item-image"
+                id="heels"
+                src="images/shoes/blackheels.jpeg"
+                alt="heels"
+              />
+              <h3 class="item-title">Black suede heels with strap</h3>
               <p>Size: UK 6</p>
-              <p>Ksh. 1500</p>
+              <p class="item-price">Ksh. 1500</p>
               <p>Seller: Shoetruck Kenya</p>
-              <p><button id="cart">Add to cart</button></p>
+              <p><button class="item-button" id="cart">Add to cart</button></p>
             </div>
           </div>
           <div class="col-md-3">
             <div class="productcard">
-              <img id="sandals" src="images/shoes/sandals.jpeg" alt="sandals" />
-              <h3>Brown leather sandals</h3>
+              <img
+                class="item-image"
+                id="sandals"
+                src="images/shoes/sandals.jpeg"
+                alt="sandals"
+              />
+              <h3 class="item-title">Brown leather sandals</h3>
               <p>Size: UK 6</p>
-              <p>Ksh. 1000</p>
+              <p class="item-price">Ksh. 1000</p>
               <p>Seller: Shoetruck Kenya</p>
-              <p><button id="cart">Add to cart</button></p>
+              <p><button class="item-button" id="cart">Add to cart</button></p>
             </div>
           </div>
           <div class="col-md-3">
             <div class="productcard">
-              <img id="vans" src="images/shoes/Vans.png" alt="vans" />
-              <h3>Black and white Vans sneakers</h3>
+              <img
+                class="item-image"
+                id="vans"
+                src="images/shoes/Vans.png"
+                alt="vans"
+              />
+              <h3 class="item-title">Black and white Vans sneakers</h3>
               <p>Size: UK 8</p>
-              <p>Ksh. 2000</p>
+              <p class="item-price">Ksh. 2000</p>
               <p>Seller: Shoetruck Kenya</p>
-              <p><button id="cart">Add to cart</button></p>
+              <p><button class="item-button" id="cart">Add to cart</button></p>
             </div>
           </div>
           <div class="col-md-3">
             <div class="productcard">
-              <img id="suede" src="images/shoes/mensshoe.jpeg" alt="suede" />
-              <h3>Black suede mens loafer</h3>
+              <img
+                class="item-image"
+                id="suede"
+                src="images/shoes/mensshoe.jpeg"
+                alt="suede"
+              />
+              <h3 class="item-title">Black suede mens loafer</h3>
               <p>Size: UK 8</p>
-              <p>Ksh. 2500</p>
+              <p class="item-price">Ksh. 2500</p>
               <p>Seller: Shoetruck Kenya</p>
-              <p><button id="cart">Add to cart</button></p>
+              <p><button class="item-button" id="cart">Add to cart</button></p>
             </div>
           </div>
         </div>
@@ -273,65 +340,73 @@
           <div class="col-md-3">
             <div class="productcard">
               <img
+                class="item-image"
                 id="macbook"
                 src="images/electronics/macbook.jpeg"
                 alt="macbook"
               />
-              <h3>Refurbished 2019 Apple MacBook Pro</h3>
+              <h3 class="item-title">Refurbished 2019 Apple MacBook Pro</h3>
               <p>
                 (Rosegold, 16-inch, 16GB RAM, 512GB Storage, 2.6GHz Intel Core
                 i7)
               </p>
-              <p>Ksh. 90,000</p>
+              <p class="item-price">Ksh. 90,000</p>
               <p>Seller: Granel Electronics</p>
-              <p><button id="cart">Add to cart</button></p>
+              <p><button class="item-button" id="cart">Add to cart</button></p>
             </div>
           </div>
           <div class="col-md-3">
             <div class="productcard">
-              <img id="hp" src="images/electronics/hp.jpeg" alt="hp" />
-              <h3>Refurbished HP Elitebook 2570P</h3>
+              <img
+                class="item-image"
+                id="hp"
+                src="images/electronics/hp.jpeg"
+                alt="hp"
+              />
+              <h3 class="item-title">Refurbished HP Elitebook 2570P</h3>
               <p>
                 (Space gray, 12.5-inch, 4GB RAM, 320GB Storage, 2.5GHz Intel
                 Core i5)
               </p>
-              <p>Ksh. 25,000</p>
+              <p class="item-price">Ksh. 25,000</p>
               <p>Seller: Granel Electronics</p>
-              <p><button id="cart">Add to cart</button></p>
+              <p><button class="item-button" id="cart">Add to cart</button></p>
             </div>
           </div>
           <div class="col-md-3">
             <div class="productcard">
               <img
+                class="item-image"
                 id="iphone"
                 src="images/electronics/Iphone.jpeg"
                 alt="iPhone"
               />
-              <h3>Refurbished Apple iPhone 11 Pro</h3>
+              <h3 class="item-title">Refurbished Apple iPhone 11 Pro</h3>
               <p>
                 (64GB + 4GB RAM, Soace gray, 6.5-inch, 4K video upto 60fps, 12MP
                 Front camera, 48MP Back camera)
               </p>
-              <p>Ksh. 70,000</p>
+              <p class="item-price">Ksh. 70,000</p>
               <p>Seller: Granel Electronics</p>
-              <p><button id="cart">Add to cart</button></p>
+              <p><button class="item-button" id="cart">Add to cart</button></p>
             </div>
           </div>
           <div class="col-md-3">
             <div class="productcard">
               <img
+                class="item-image"
                 id="samsung"
                 src="images/electronics/SamsunggalaxyS21.jpg"
                 alt="samsung"
               />
-              <h3>Refurbished Samsung Galaxy A21s</h3>
+              <h3 class="item-title">Refurbished Samsung Galaxy A21s</h3>
               <p>
                 (64GB + 4GB RAM, 6.5-inch, Dual Sim, 13MP Front camera, 48MP
                 Back Camera, 1080p video @ 30fps, midnight blue)
               </p>
-              <p>Ksh. 15,000</p>
+              <p class="item-price">Ksh. 15,000</p>
               <p>Seller: Granel Electronics</p>
-              <p><button id="cart">Add to cart</button></p>
+              <p><button class="item-button" id="cart">Add to cart</button></p>
             </div>
           </div>
         </div>
