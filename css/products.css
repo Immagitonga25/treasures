@@ -187,3 +187,20 @@ h3 {
   padding-right: 25px;
   padding-left: 25px;
 }
+.checkout {
+  background-color:black;
+  margin: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  
+}
+.checkout a {
+  color: yellow;
+}
+.checkout a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: turquoise;
+}

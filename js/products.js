@@ -23,7 +23,7 @@ $(document).ready(function() {
        var button = addToCartBtn[i]
        button.addEventListener("click", addToCartClicked)
    }
-   $("button").click(function(){
+   $("button.item-button").click(function(){
        alert("Item added to cart!")
    });
    
