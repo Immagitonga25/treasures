@@ -41,7 +41,7 @@
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     float: left;
-    width: 24.25%;
+    width: 20.20%;
     padding: 5px;
   }
   
@@ -53,19 +53,18 @@
   }
   .jumbotron h3{
      text-align: center;
-     padding-top: 5%;
      padding-bottom: 2%;
-     background-image: url("../img/king.jpeg");
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
-     color:ivory;
+     color:blue;
      font-family: 'monospace', cursive;
   }
   /* make a border to hold the new arrival row/gallery*/
   .row{
-      border-radius: 11%;
-      border: 38px solid #4cb5f5;
+       clear: both;
+      padding-top: 0%;
+      text-align: center;
   }/* Give the column pic names some styling*/
   .column p{
       font-size: larger;
