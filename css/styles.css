@@ -58,7 +58,7 @@
      background-position: center;
      background-size: cover;
      color:blue;
-     font-family: 'monospace', cursive;
+     font-family: 'Boogaloo', cursive;;
      
   }
   /* make a border to hold the new arrival row/gallery*/
@@ -167,6 +167,7 @@
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    color: turquoise;
   }
   
   input[type=submit] {
@@ -210,5 +211,12 @@
       margin-top: 0;
     }
   }
-  
+  .container-fluid h2{
+      color: teal;
+      font-family: 'sans-serif' cursive;
+  }
+ .container-fluid{
+     color: turquoise;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
 
