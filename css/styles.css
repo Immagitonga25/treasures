@@ -38,3 +38,26 @@
 .navbar-nav .nav-item:hover .nav-link {
     color: pink;
 }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 24.25%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .jumbotron h3{
+     text-align: center;
+     padding-top: 5%;
+     padding-bottom: 2%;
+     background-image: url("../img/king.jpeg");
+     background-repeat: no-repeat;
+     background-position: center;
+     color:WHITE;
+     font-family: 'La Belle Aurore', cursive;
+  }
