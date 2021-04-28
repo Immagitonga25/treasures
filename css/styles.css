@@ -64,8 +64,8 @@
   }
   /* make a border to hold the new arrival row/gallery*/
   .row{
-      border-radius: 14%;
-      border: 47px solid #4cb5f5;
+      border-radius: 11%;
+      border: 38px solid #4cb5f5;
   }/* Give the column pic names some styling*/
   .column p{
       font-size: larger;
@@ -113,8 +113,8 @@
     background-repeat: no-repeat;
     background-position: center;
     border: 3px solid blue;
-    object-fit: cover;
-    object-position: center;
+    margin-left: 12%;
+    
 }
 #h-text{
     text-align: center;
