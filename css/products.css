@@ -1,0 +1,189 @@
+.topnav {
+  font-size: 25px;
+  overflow: hidden;
+  background-color: gray;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+}
+.topnav a:hover {
+  color: turquoise;
+  cursor: pointer;
+}
+.topnav .search-container {
+  float: right;
+  padding-right: 10px;
+  padding-top: 8px;
+}
+.topnav input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a,
+  .topnav input[type="text"],
+  .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type="text"] {
+    border: 1px solid #ccc;
+  }
+}
+#cart {
+  background-color: turquoise;
+}
+.sidenav {
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  background-color: #111;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  margin-top: 73px;
+}
+.sidenav a {
+  padding: 6px 6px 6px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+.sidenav a:hover {
+  color: white;
+  cursor: pointer;
+}
+.content {
+  margin-left: 180px;
+  padding: px;
+}
+.cloth {
+  text-align: center;
+  font-weight: bold;
+  background-color: lightgray;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+.col-md-3 {
+  display: flex;
+  width: 25%;
+  min-width: 200px;
+  /* margin: auto; */
+}
+.col-md-3 img {
+  width: 100%;
+}
+.tops {
+  margin: 30px 0px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+#polo {
+  padding-bottom: 82px;
+}
+#menshirt {
+  padding-bottom: 82px;
+}
+h3 {
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+#bodycon {
+  padding-bottom: 79px;
+}
+#sumdress {
+  padding-bottom: 142px;
+}
+#sridress {
+  padding-bottom: 90px;
+}
+.dresses {
+  margin: 30px 0px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.pants {
+  margin: 30px 0px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+#cordroy {
+  padding-bottom: 22px;
+}
+#khaki {
+  padding-bottom: 40px;
+}
+.shoes {
+  margin: 30px 0px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+#shoes {
+  text-align: center;
+  font-weight: bold;
+  background-color: lightgray;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+#electronics {
+  text-align: center;
+  font-weight: bold;
+  background-color: lightgray;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+#hp {
+  padding-bottom: 150px;
+}
+#iphone {
+  padding-bottom: 20px;
+}
+#samsung {
+  padding-bottom: 65px;
+}
+#sandals {
+  padding-bottom: 39px;
+}
+#vans {
+  padding-bottom: 120px;
+}
+#suede {
+  padding-bottom: 173px;
+}
+.electronics {
+  margin: 30px 0px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
