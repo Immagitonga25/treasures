@@ -8,7 +8,9 @@ function addToCartClicked(event) {
     console.log(title, price, image)
 }
 
-
+function alertUser(event) {
+    alert("Item added to cart!")
+}
 
 
 
@@ -21,5 +23,9 @@ $(document).ready(function() {
        var button = addToCartBtn[i]
        button.addEventListener("click", addToCartClicked)
    }
+   $("button").click(function(){
+       alert("Item added to cart!")
+   });
    
+
 });
