@@ -35,6 +35,17 @@ for (let i=0; i < carts.length; i++) {
 function cartNumbers() {
     let productNumbers = localStorage.getItem('cartNumbers');
     
-    productNumbers = parseInt(productNumbers)
-    localStorage.setItem('cartNumbers', 1);
+    productNumbers = parseInt(productNumbers);
+
+    if( productNumbers ) {
+        localStorage.setItem('cartNumbers', productNumbers + 1);
+        document.querySelector('.cart span').textContent = productNumbers + 1;
+    }   else {
+        localStorage.setItem('cartNumbers', 1);
+        document.querySelector('.cart span').textContent = 1;
+
+    }
+    
+    
+
 }
