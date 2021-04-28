@@ -46,3 +46,9 @@
     align-items: center;
 }
 
+.quantity {
+    width: 30%;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+}
+
