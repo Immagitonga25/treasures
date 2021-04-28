@@ -140,4 +140,19 @@
     font-weight: 500;
     
 }
+#l-text{
+    padding-top: 1%;
+    margin-top: 1%;
+    text-align: center;
+    color: blue;
+    font-size: 22px;
+    display: block;
+    flex-wrap: wrap;
+    font-style: italic;
+    font-weight: 500;
+    border: 2px solid beige;
+    width: 13%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
