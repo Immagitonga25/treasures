@@ -70,7 +70,7 @@ function setItems(products);
                 [product]: product
             }
         }
-        cartItems[product].inCart += 1:
+        cartItems[product].inCart += 1;
     }   else {
         product.inCart = 1;
     }
@@ -85,9 +85,13 @@ function setItems(products);
 
 function totalCost(product) {
     let cartCost = localStorage.getItem('totalCost');
-    
-    localStorage.setItem("totalCost", product.price);
-    cartCost = parseInt(cartCost);
+
+    if (cartCost != null) {
+        cartCost = parseInt(cartCost);
+        localStorage.setItem("totalCost", cartCost + product.price);
+    }   else {
+        localStorage.setItem("totalCost", product.price); 
+    }
     
 }
 
