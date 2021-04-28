@@ -40,8 +40,8 @@
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-    float: left;
-    width: 20.20%;
+    float: right;
+    width: 24.10%;
     padding: 5px;
   }
   
@@ -59,12 +59,12 @@
      background-size: cover;
      color:blue;
      font-family: 'monospace', cursive;
+     
   }
   /* make a border to hold the new arrival row/gallery*/
   .row{
-       clear: both;
+       border: 14px solid #4cb5f5;
       padding-top: 0%;
-      text-align: center;
   }/* Give the column pic names some styling*/
   .column p{
       font-size: larger;
@@ -112,7 +112,8 @@
     background-repeat: no-repeat;
     background-position: center;
     border: 3px solid blue;
-    margin-left: 12%;
+    margin-left:14%;
+    margin-right: 20%;
     
 }
 #h-text{
