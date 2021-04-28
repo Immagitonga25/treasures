@@ -32,6 +32,14 @@ for (let i=0; i < carts.length; i++) {
     })
 }
 
+function onLoadCartNumbers(){
+    let productNumbers = localStorage.getItem('cartNumbers');
+
+    if(productNumbers){
+        document.querySelector('.cart span').textContent = productNumbers;
+    }
+}
+
 function cartNumbers() {
     let productNumbers = localStorage.getItem('cartNumbers');
     
