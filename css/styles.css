@@ -39,3 +39,10 @@
 .product.title {
     width: 45%;
 }
+
+.price {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
