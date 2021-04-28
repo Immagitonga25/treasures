@@ -58,6 +58,9 @@
     border: 1px solid #ccc;
   }
 }
+#cart {
+  background-color: turquoise;
+}
 .sidenav {
   width: 180px;
   position: fixed;
