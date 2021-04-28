@@ -29,6 +29,7 @@ let products = [
 for (let i=0; i < carts.length; i++) {
     carts[i].addEventListener('click', () => {
         cartNumbers(products[i]);
+        totalCost(products[i])
     })
 }
 
@@ -60,6 +61,20 @@ function cartNumbers(products) {
 function setItems(products);
     let cartItems = localStorage.getItem('productsInCart')
     cartItems = JSON.parse(cartItems)
+    
+    if(cartItems != null) {
+
+        if(cartItems[product] == undefined){
+            cartItems = {
+                ...cartItems,
+                [product]: product
+            }
+        }
+        cartItems[product].inCart += 1:
+    }   else {
+        product.inCart = 1;
+    }
+    
     product.inCart = 1;
 
     cartItems = {
@@ -68,6 +83,12 @@ function setItems(products);
     
     localStorage.setItem("productsInCart", JSON.stringify(cartItems));
 
+function totalCost(product) {
+    let cartCost = localStorage.getItem('totalCost');
+    
+    localStorage.setItem("totalCost", product.price);
+    
+}
 
 onLoadCartNumbers();
 
