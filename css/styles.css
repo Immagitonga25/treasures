@@ -81,3 +81,10 @@
        padding-right: 25px;
        width: 100%;
    }
+   .container{
+       background-color:whitesmoke;
+   }
+   .product-link, a ,:hover {
+   color:tomato;
+    
+   }
