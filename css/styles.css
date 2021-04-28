@@ -113,6 +113,8 @@
     background-repeat: no-repeat;
     background-position: center;
     border: 3px solid blue;
+    object-fit: cover;
+    object-position: center;
 }
 #h-text{
     text-align: center;
@@ -123,15 +125,18 @@
     padding-top: 1%;
     color: #fffff0;
     text-align: center;
+    font-family: cursive;
 
 }
 #p-text{
     padding-top: 1%;
     margin-top: 1%;
     text-align: center;
-    color: #fff;
+    color: #f9d4f5;
     font-size: 22px;
     display: block;
     flex-wrap: wrap;
+    font-style: italic;
+    font-weight: 500;
 }
 
