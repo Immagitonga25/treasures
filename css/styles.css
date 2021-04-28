@@ -1,0 +1,17 @@
+.topnav {
+    font-size: 25px;
+    overflow: hidden;
+    background-color: gray;
+}
+  
+.topnav a {
+    float: left;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+}
+.topnav a:hover {
+    color: turquoise;
+    cursor: pointer;
+}
