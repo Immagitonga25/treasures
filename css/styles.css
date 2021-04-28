@@ -58,13 +58,14 @@
      background-image: url("../img/king.jpeg");
      background-repeat: no-repeat;
      background-position: center;
+     background-size: cover;
      color:ivory;
      font-family: 'monospace', cursive;
   }
   /* make a border to hold the new arrival row/gallery*/
   .row{
       border-radius: 14%;
-      border: 50px solid #4cb5f5;
+      border: 47px solid #4cb5f5;
   }/* Give the column pic names some styling*/
   .column p{
       font-size: larger;
