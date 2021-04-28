@@ -58,11 +58,10 @@ function cartNumbers(products) {
 }
 
 function setItems(products);
-    console.log("Inside of setItems function");
-    console.log("My product is", product);
+    let cartItems = localStorage.getItem('productsInCart')
     product.inCart = 1;
 
-    let cartItems = {
+    cartItems = {
         [product.tag]: product
     }
     
