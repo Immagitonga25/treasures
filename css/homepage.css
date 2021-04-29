@@ -1,0 +1,271 @@
+/*making the carousel images in position*/
+.carousel-item {
+    height: 20rem;
+    background: #777;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+#header {
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#header h1 {
+    color: #3CAEA3;
+    font-family: 'Boogaloo', cursive;
+}
+
+#header h2 {
+    color:#3CAEA3;
+    font-family: 'Boogaloo', cursive;
+}
+
+#header p {
+    color:#3CAEA3;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: red;
+    font-size: 25px;
+    
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: pink;
+    
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.mcolumn {
+    float: right;
+    width: 24.10%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .jumbotron h3{
+     text-align: center;
+     padding-bottom: 2%;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     color:blue;
+     font-family: 'Boogaloo', cursive;;
+     
+  }
+  /* make a border to hold the new arrival row/gallery*/
+  .row{
+       border: 7px solid wheat;
+      padding-top: 0%;
+  }/* Give the column pic names some styling*/
+  .mcolumn p{
+      font-size: larger;
+      color: #Ac3e31;
+      text-align: center;
+      font-style: italic;
+      background-color: antiquewhite;
+  }
+   .mcolumn img{
+       max-width: 1080px;
+       margin: auto;
+       padding-left: 25px;
+       padding-right: 25px;
+       width: 100%;
+   }
+   .blue {
+       color: blue;
+   }
+   .container{
+       background-color:whitesmoke;
+   }
+   a#anchor:hover {
+   color:tomato;
+    
+   }
+   /* Container holding the image and the text */
+/* .discount{
+    text-align: center;
+  }
+  .link{
+      text-align: center;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+} */
+.wrapper{
+    margin: 0;
+    width: 1000px;
+    padding-top: 2%;
+    margin-bottom: 3%;
+}
+.img-dis{
+    width: 1010px;
+    height: 370px;
+    background-image: url(../img/promax.jpeg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid blue;
+    margin-left:50px;
+    
+
+    
+}
+#h-text{
+    text-align: center;
+    color: #000;
+    padding-top: 5%;
+}
+#h1-text{
+    padding-top: 1%;
+    color:red;
+    text-align: center;
+    font-family: cursive;
+
+}
+#p-text{
+    padding-top: 1%;
+    margin-top: 1%;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    display: block;
+    flex-wrap: wrap;
+    font-style: italic;
+    font-weight: 500;
+    
+}
+#l-text{
+    padding-top: 1%;
+    margin-top: 1%;
+    text-align: center;
+    color:yellow;
+    font-size: 22px;
+    display: block;
+    flex-wrap: wrap;
+    font-style: italic;
+    font-weight: 500;
+    border: 2px solid beige;
+    width: 13%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    display: grid;
+    margin: 0;
+    font-size: 14px;
+}
+.cont{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-size: 30px;
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+
+}
+footer{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -0-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: #011c39;
+}
+.footer > *{
+    flex: 1 100%;
+}
+.footer-left{
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+ .footer-left img{
+     width: 50px;
+ }
+ h2{
+     font-weight: 600;
+     font-size: 16px;
+ }
+ .footer ul{
+     list-style: none;
+     padding-left: 0;
+ }
+ .footer li{
+     line-height: 2em;
+ }
+ .footer a{
+     text-decoration: none;
+ }
+ .footer-right{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -0-flex;
+    flex-flow:row wrap; 
+ }
+ .footer-right > *{
+     flex: 1 50%;
+ }
+.box a{
+    color: #999;
+}
+.footer-bottom{
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+}
+.footer-left p{
+    padding-right: 29%;
+    color:#999;
+}
+.socials a {
+background: #364a62;
+width: 40px;
+height: 40px;
+display: inline-block;
+margin-right: 10px;
+}
+.socials a i{
+    color: #e7f2f4;
+    padding: 10px 12px;
+    font-size:20px;
+}
+@media screen and (min-width: 600px) {
+    .footer-right > *{
+        flex:1;
+    }
+    .footer-left{
+        flex: 1 0px;
+    }
+    .footer-right{
+        flex: 2   0px ;
+    }
+}
+@media (max-width:600px){
+ .footer{
+     padding: 15px;
+ }
+ main{
+     font-size:50 px;
+ }
+}
+

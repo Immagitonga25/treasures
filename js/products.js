@@ -3,6 +3,7 @@ var item;
 var price;
 var title;
 var image;
+var total;
 //adding items to checkout
 //  function addItemToCart()
 
@@ -31,6 +32,7 @@ $(document).ready(function () {
         "<button>REMOVE</button>" +
         "</td></tr>"
     );
+    $
   });
   function addToCartClicked(event) {
     var button = event.target;
@@ -40,11 +42,15 @@ $(document).ready(function () {
     image = item.getElementsByClassName("item-image")[0].src;
     console.log(title, price, image);
   }
-
+  // function showTotal() {
+  //   var cartItems = document.querySelectorAll("item-price");
+  //   console.log(cartItems)
+  //   var total = parseInt(cartItems.textContent.replace("Ksh.", ""));
+  //   console.log(total);
+  // };
   var quantity = 1;
-  var total = 
+
   $("#purchase").click(function () {
-    
     //delivery prompt
     var delivery = $("#deliveryoption option:selected").val();
     console.log(delivery);
