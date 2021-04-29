@@ -3,8 +3,7 @@ var item;
 var price;
 var title;
 var image;
-//adding items to checkout
-//  function addItemToCart()
+
 
 //User logic
 $(document).ready(function () {
@@ -14,6 +13,35 @@ $(document).ready(function () {
     var button = addToCartBtn[i];
     button.addEventListener("click", addToCartClicked);
   }
+
+  function addToCartClicked(event) {
+    var button = event.target;
+    item = button.parentElement.parentElement;
+    title = item.getElementsByClassName("item-title")[0].innerText;
+    price = item.getElementsByClassName("item-price")[0].innerText;
+    image = item.getElementsByClassName("item-image")[0].src;
+    console.log(title, price, image);
+    
+    
+    
+    
+  }
+
+//   function updateCartTotal() {
+//     var cartItems = document.querySelectorAll(".item-price");
+//     cartItems.forEach(function (cartItem) {
+//     total = parseInt(cartItem.textContent.replace("Ksh. ", ""));
+//     });
+//     console.log(total);
+
+    
+  
+//   function totalPrice (total, cartItem) {
+//      return total += cartItem;
+    
+//   }
+//   console.log();
+
   $("button.item-button").click(function () {
     alert("Item added to cart!");
 
@@ -26,25 +54,14 @@ $(document).ready(function () {
         "</td>" +
         "<td>" +
         quantity +
-        "</td>" +
-        "<td>" +
-        "<button>REMOVE</button>" +
         "</td></tr>"
     );
   });
-  function addToCartClicked(event) {
-    var button = event.target;
-    item = button.parentElement.parentElement;
-    title = item.getElementsByClassName("item-title")[0].innerText;
-    price = item.getElementsByClassName("item-price")[0].innerText;
-    image = item.getElementsByClassName("item-image")[0].src;
-    console.log(title, price, image);
-  }
+  
 
   var quantity = 1;
-  var total = 
+
   $("#purchase").click(function () {
-    
     //delivery prompt
     var delivery = $("#deliveryoption option:selected").val();
     console.log(delivery);
