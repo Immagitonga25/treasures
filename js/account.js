@@ -13,7 +13,7 @@ $(document).ready(function(e){
 
   $("h5").click(function(){
     $("h5").css("color" ,"#ED553B");
-    $("h4").css("color" ,"black")
+    $("h4").css("color" ,"black");
     $("#card2").show();
     $("#card1").hide();
   })
@@ -21,6 +21,8 @@ $(document).ready(function(e){
   $("button.signup").click(function(e){
     $("#card1").hide();
     $("#card2").show();
+    $("h5").css("color" ,"#ED553B");
+    $("h4").css("color" ,"black");
     e.preventDefault();
   })
 

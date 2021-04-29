@@ -7,6 +7,7 @@ var total;
 //adding items to checkout
 //  function addItemToCart()
 
+
 //User logic
 $(document).ready(function () {
   //addToCart button
@@ -15,6 +16,35 @@ $(document).ready(function () {
     var button = addToCartBtn[i];
     button.addEventListener("click", addToCartClicked);
   }
+
+  function addToCartClicked(event) {
+    var button = event.target;
+    item = button.parentElement.parentElement;
+    title = item.getElementsByClassName("item-title")[0].innerText;
+    price = item.getElementsByClassName("item-price")[0].innerText;
+    image = item.getElementsByClassName("item-image")[0].src;
+    console.log(title, price, image);
+    
+    
+    
+    
+  }
+
+//   function updateCartTotal() {
+//     var cartItems = document.querySelectorAll(".item-price");
+//     cartItems.forEach(function (cartItem) {
+//     total = parseInt(cartItem.textContent.replace("Ksh. ", ""));
+//     });
+//     console.log(total);
+
+    
+  
+//   function totalPrice (total, cartItem) {
+//      return total += cartItem;
+    
+//   }
+//   console.log();
+
   $("button.item-button").click(function () {
     alert("Item added to cart!");
 
@@ -27,9 +57,6 @@ $(document).ready(function () {
         "</td>" +
         "<td>" +
         quantity +
-        "</td>" +
-        "<td>" +
-        "<button>REMOVE</button>" +
         "</td></tr>"
     );
     $
@@ -48,6 +75,8 @@ $(document).ready(function () {
   //   var total = parseInt(cartItems.textContent.replace("Ksh.", ""));
   //   console.log(total);
   // };
+  
+
   var quantity = 1;
 
   $("#purchase").click(function () {
