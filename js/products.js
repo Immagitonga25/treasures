@@ -36,14 +36,14 @@ $(document).ready(function() {
     var image = item.getElementsByClassName("item-image")[0].src
     console.log(title, price, image)
 
-    
+    var delivery = $("#deliveryoption option:selected").val();
+    console.log(delivery) 
     
     var quantity = 1
-    $("button.purchase").click(function(){
+    $("#purchase").click(function(){
 
         //delivery prompt
-        var delivery = $("#deliveryoption option:selected").val();
-        console.log(delivery)
+        
 
         if (delivery === "delivery") {
             var location = prompt("Enter delivery location: ");

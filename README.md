@@ -9,7 +9,7 @@
 This is an E-commerce website that sells pre-loved items such as clothes, shoes and electronics. The website hosts businesses that sell pre-loved items and connects them to potential buyers. The sellers reach out to us as a company and once we validate their legitimacy, we post pictures of their products on the website for buyers to buy. Buyers are able to create an account in the website so that they are able to shop and purchase items.
 ## Setup/Installation Requirements
 * Open your terminal
-* Clone the repo {git clone}
+* Clone the repo {git clone https://github.com/Immagitonga25/treasures.git}
 * Open your code editor and enjoy.
 
 ## Live link
