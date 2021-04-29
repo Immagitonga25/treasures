@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/products.css" />
@@ -16,22 +16,53 @@
     <script src="js/products.js"></script>
 
     <title>Treasures</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="topnav">
-        <!-- Brand/logo -->
-        <a class="navbar-brand" href="">
-          <img src="./images/icon/crown1.png" alt="logo" style="width: 50px" />
-        </a>
-        <a class="nav-link" href="index.html">Home</a>
+      <!-- Brand/logo -->
+      <a class="navbar-brand" href="">
+        <img src="./images/icon/crown1.png" alt="logo" style="width: 50px" />
+      </a>
+      <a class="nav-link" href="index.html">Home</a>
 
-        <a class="nav-link" href="products.html">Products</a>
-  
-        <a class="nav-link" href="checkout.html">Checkout</a>
-  
-        <a class="nav-link" href="account.html">Account</a>
+      <a class="nav-link" href="products.html">Products</a>
+
+      <a class="nav-link" href="checkout.html">Checkout</a>
+
+      <a class="nav-link" href="account.html">Account</a>
     </div>
-    <h1>Checkout</h1>
-    
-</body>
+    <div class="container">
+      <h2 class="carth2">CART</h2>
+
+      <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">ITEM</th>
+            <th scope="col">PRICE</th>
+            <th scope="col">QUANTITY</th>
+            <th scope="col">TOTAL</th>
+          </tr>
+        </thead>
+        <tbody id="checkout"></tbody>
+      </table>
+      
+      <div class="delivery">
+        <p class="dlvmessage">
+          We do deliveries around Nairobi at an extra charge of Ksh. 200.<br />
+          You can also pick up your package at our Pick-up Point at
+          <span class="location"> Sawa Mall, Moi Avenue, Nairobi CBD</span>.
+        </p>
+
+        <div class="deliveryopt">
+          <p class="dlv">Select Delivery Method</p>
+          <select class="form-control" id="deliveryoption">
+            <option value="delivery">Delivery</option>
+            <option value="pick-up">Pick-up</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit" id="purchase">PURCHASE</button>
+    </div>
+  </body>
 </html>
