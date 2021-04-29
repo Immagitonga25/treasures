@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function(e){
   $("#card1").show();
   $("#card2").hide();
   $("h4").css("color" ,"#ED553B")
@@ -17,6 +17,15 @@ $(document).ready(function(){
     $("#card2").show();
     $("#card1").hide();
   })
+
+  $("button.signup").click(function(e){
+    $("#card1").hide();
+    $("#card2").show();
+    e.preventDefault();
+  })
+
+  
+
 
   $(document).on('click' , 'button' ,function() {
     $("form[name='signup']").validate({
@@ -39,6 +48,9 @@ $(document).ready(function(){
       },
     });
 
+    
+
+    
     $("form[name='login']").validate({
       rules: {
         username : "required",
@@ -50,4 +62,7 @@ $(document).ready(function(){
       },
     })
   })
+
+  
+  e.preventDefault();
 })
