@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/account.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js
+    " ></script>
+
+    <script src="js/account.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">
+          <img src="images/WhatsApp Image 2021-04-27 at 10.14.06.jpeg" alt="logo" style="width:40px;">
+        </a>
+        <ul class="navbar-nav">
+         <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="account.html">Account</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="account">
+      <div class="titles">
+        <h4 id="#signup" >Sign Up</h4>
+        <h5 id="#login" >Log In</h4>
+        </div>
+      <div id="card1" class="card">
+        <form id="form1" name="signup">
+          <label>Full Name:</label><br>
+          <input type="text" id="name" name="fullname"><br>
+        <label>Email:</label><br>
+          <input type="text" id="email" name="email"><br>
+          <label>Password:</label><br>
+          <input type="password" id="newpassword" name="newpassword"><br>
+          <label>Confirm Password:</label><br>
+          <input type="password" id="confirm" name="confirm"><br>
+          <button type="signup" class="signup">Sign Up</button>
+        </form>
+      </div>
+      <div id="card2" class="card">
+        <form id="form2" name="login">
+          <label>Username:</label><br>
+          <input type="text" id="username" name="username"><br>
+          <label>Password:</label><br>
+          <input type="password" id="password" name="password"><br>
+          <button class="login"><a class="nav-link" href="index.html"></a>Log In</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
