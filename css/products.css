@@ -188,27 +188,29 @@ h3 {
   padding-left: 25px;
 }
 .checkout {
-  background-color:black;
-  margin: 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px;
+  
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
   
 }
-.checkout a {
-  color: yellow;
+.cart {
+  
 }
-.checkout a:hover {
-  cursor: pointer;
-  text-decoration: none;
-  color: turquoise;
+.head {
+  background-color: lightsteelblue;
+  
 }
 .carth2 {
   background-color: lightgray;
   text-align: center;
   font-weight: bold;
   padding: 10px;
+  margin-bottom: 0px;
+  font-family: Verdana;
 }
 #deliveryoption {
   width: 15cm;
